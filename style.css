@@ -1,0 +1,60 @@
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1bcaed;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/093/932/small_2x/cartoon-nature-forest-scenery-free-vector.jpg");
+  background-size: cover; 
+  background-position: center; 
+}
+
+.container {
+  padding: 30px 100px;
+  border-radius: 12px;
+  background: rgba(7, 232, 176, 0.305);
+  text-align: center;
+}
+.container header {
+  font-size: 40px;
+  font-weight: 400;
+  color: black;
+}
+
+.result {
+    font-size : 30px;
+    color : black;
+}
+
+.container .input-area {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 25px 0;
+}
+
+.input-area input {
+  height: 50px;
+  width: 100px;
+  outline: none;
+  padding: 0 20px;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  width: 80px;
+  border: 1px solid gray;
+}
+
+.input-area button {
+  height: 50px;
+  width: 100px;
+  outline: none;
+  padding: 0 20px;
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+  background: #4a98f7;
+  color: white;
+ }
